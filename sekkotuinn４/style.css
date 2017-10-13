@@ -1,0 +1,1233 @@
+
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+
+
+body{
+  background-color: white;
+  color: #333333;
+  font-family: 'Rounded Mplus 1c';
+  /*font-family: 'Kokoro';*/
+}
+
+/*300 + 100 + 10 = 410
+300 = 100 + 10 + 190*/
+
+
+/*ここからヘッダー*/
+
+.clearfix::after{
+content: "";
+clear: both;
+display: block;
+}
+header{
+  height:130px;
+  margin: 10px 0px;
+}
+
+.yoko{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.headimg{
+  display: none;
+}
+
+.topbox{
+ width: 960px;
+}
+
+.top{
+  float: left;
+  width: 350px;
+}
+
+.logo{
+  font-size: 70px;
+  font-family: 'Rounded Mplus 1c';
+  font-weight: bold;
+  color: #725538;
+  line-height: 130px;
+}
+
+.station{
+  width: 76px;
+  height: 126px;
+  font-size: 24px;
+  line-height: 60px;
+  background-color: yellow;
+  margin: 0px 20px;
+}
+
+.business{
+  font-size: 12px;
+  background-color: #ffd5d5;
+}
+
+.logo2box{
+  width: 420px;
+  height: 126px;
+  float: right;
+}
+
+.logo2{
+  font-size: 20px;
+  width: 300px;
+  /*float: right;*/
+}
+.tel1{
+  font-size: 18px;
+  color: #8d6a47;
+}
+
+/*ここからメニュー*/
+
+.menu{
+  width: 100%;
+  background-color: #ff8080;
+  /*position: fixed;*/
+  position: absolute;
+ /* z-index: 1000;*/
+}
+
+nav{
+  height: 70px;
+  text-align: center;
+}
+
+.fa-bars{
+  display: none;
+  float: right;
+}
+
+
+.top-menu{
+  width: 970px;
+}
+
+.top-menu-item{
+  float: left;
+  list-style: none;
+  font-size: 25px;
+  line-height: 70px;
+  width: 20%;
+  border-collapse: collapse;
+  border-right: 2px solid white;
+  background-color: #ff8080;
+}
+
+/*.top-menu-item:first-child {
+  border-left: 2px solid white;
+}*/
+
+.top-menu-item:first-child{
+  border-left: 2px solid white;
+}
+
+
+.top-menu-item a{
+  text-decoration: none;
+  color: #725538;
+}
+
+
+/*ここから大きい写真*/
+.bigimage{
+  height: 500px;
+  background-image: url(img/houtai2.jpg);
+  background-size: 100% 100%;
+}
+
+
+
+
+/*ここからPR*/
+
+.main{
+  width: 960px;
+  margin-top: 30px;
+}
+
+.ap{
+  float: left;
+}
+
+.prtext{
+  width: 650px;
+  font-size: 20px;
+}
+.primage{
+  width: 290px;
+  height: 200px;
+  margin-left: 20px;
+  background-image: url(img/dog.jpg);
+  background-size: 100% 100%;
+  border-radius: 20%;
+}
+
+/*らいん*/
+.line{
+  background-color: #d52b2b;
+  width: 970px;
+  height: 2px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+
+/*ここから治療内容*/
+.tiryou{
+  width: 100%;
+  margin-top: 90px;
+}
+/*height: 500px;*/
+}
+
+.tiryoubox{
+  width: 960px;
+/*  margin-top: 80px;*/
+
+}
+
+.tiryounaiyou{
+  font-size: 30px;
+  color: #d52b80;
+}
+
+.container{
+  width: 920px;
+}
+.{
+ text-decoration: none;
+}
+
+.naiyou{
+  float: left;
+  width: 300px;
+  height: 310px;
+ /* padding: 10px;*/
+  background-color: #fdf7fa;
+  border: #f1b8d5 3px solid;
+  text-decoration: none;
+}
+
+.naiyou2 {
+  margin: 0 10px;
+}
+
+.heading{
+  font-size: 18px;
+
+}
+
+h2{
+  margin: 6px 6px 0px;
+}
+
+
+
+.center {
+  display: block;
+  width: 160px;
+  height: 150px;
+  margin: 0 auto;
+}
+.kega{
+  width: 150px;
+  margin: 0 auto;
+}
+
+.text3{
+  padding: 0px 10px;
+}
+.readmore
+{display: none;
+}
+.hide-text{
+  margin: 0px 10px;
+}
+
+
+
+/*ここからお客様の声*/
+
+.gestbox{
+  width: 90%;
+  height: 300px;
+}
+.gestcontainer{
+  width: 920px;
+  /*height: 240px;*/
+}
+.okyakukoe{
+  font-size: 30px;
+  color: #d52b80;
+}
+
+.gestcomment{
+  display: none;
+  background-color: rgba(0,0,0,0.5);
+  width: 294px;
+  height: 234px;
+  padding: 5px;
+}
+
+
+.okyakusama{
+  float: left;
+  width: 300px;
+  height: 240px;
+  border: #f1b8d5 3px solid;
+  font-size: 18px;
+  color: white;
+}
+
+.okyakusama1{
+  background-image: url(img/kanjasan1.jpg);
+  background-size: 100% 100%;
+}
+
+
+.okyakusama2{
+  margin: 0 10px;
+  background-image: url(img/obaasan.jpg);
+  background-size: 100% 100%;
+}
+
+.okyakusama3{
+  background-image: url(img/kanjasan2.jpg);
+  background-size: 100% 100%;
+}
+
+
+/*ここからマップ、アクセス*/
+
+#info{
+  background-color: #ffd5d5;
+  padding: 40px 0px;
+  margin-top: 60px;
+}
+
+.infobox{
+  width: 960px;
+}
+
+h6{
+  font-size: 20px;
+}
+
+.map{
+  float: left;
+  width: 450px;
+  margin: 0px 15px;
+}
+
+.infoimg{
+  display: none;
+}
+
+
+.toiawase{
+  font-size: 20px;
+  width: 440px;
+}
+.telicon{
+  font-size: 30px;
+  width: 440px;
+}
+
+.telicon i{
+  font-size: 40px;
+  color: #d56a00;
+  margin: 0px 10px;
+}
+
+.bord2{
+  padding-bottom: 20px;
+  width: 450px;
+  margin-top: 40px;
+}
+
+.sta{
+  font-size: 25px;
+}
+.station3{
+  margin-bottom: 40px;
+}
+
+.whitebox{
+  background-color: white;
+  padding-bottom: 5px;
+}
+
+
+
+.table1{
+  width: 440px;
+ background-color: #fcfaf8;
+ font-size: 16px;
+ border-collapse: collapse;
+ margin: 0 auto;
+}
+caption{
+  background-color: white;
+  border: black 1px solid;
+}
+
+.tr1{
+  border: black 1px solid;
+}
+
+.td1{
+ margin: 0;
+ background-color: #fcfaf8;
+ font-size: 30px;
+ border: black 1px solid;
+}
+
+
+
+.thead1{
+  background-color: pink;
+}
+
+.th1{
+  border-left: black 1px solid;
+}
+
+.tbody1{
+  text-align: center;
+}
+
+footer{
+
+height: 60px;
+background-color: #ff8080;
+text-align: center;
+line-height: 60px;
+color: #fafafa;
+}
+
+
+/*☆ここから２ページ目！！*/
+
+/*ここから位置案内*/
+.bread1{
+  height: 40px;
+  background-color: #ffeaea;
+}
+.second-menu{
+ width: 900px;
+}
+.obi{
+  height: 40px;
+}
+
+.mini{
+  width: 150px;
+  float: left;
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.minif::after{
+  content: "＞";
+}
+
+/*ここから院長の挨拶*/
+
+.directorbox{
+  margin-top: 70px;
+  width: 960px;
+}
+.profile{
+  float: left;
+  margin: 26px;
+}
+
+.image1{
+  width: 250px;
+  height: 240px;
+  background-image: url(img/doctor2.jpg);
+  background-size: 100% 100%;
+  border-radius: 20%;
+  border: pink 2px solid;
+  margin-top: 100px;
+}
+
+.image1 img{
+  border-radius: 20%;
+}
+
+.doctor{
+font-size: 30px;
+}
+
+.messege{
+  width: 600px;
+  font-size: 20px;
+}
+
+
+/*レスポンシブ院長挨拶*/
+.directorbox2{
+  display: none;
+}
+
+.director2{
+  display: none;
+}
+
+
+
+
+
+
+/*ここから院内の様子*/
+.hospital{
+  margin-bottom: 30px;
+}
+
+
+.hospitalbox{
+  width: 960px;
+}
+
+.room{
+  float: left;
+  width: 400px;
+  margin: 20px 40px;
+  /*border: red 3px solid;*/
+}
+
+.roomin{
+  background-color: white;
+ height: 250px;
+}
+
+.roomtext{
+  height: 50px;
+  margin: 0px 5px;
+}
+
+.infomation{
+  width: 700px;
+}
+
+.table2{
+  width: 700px;
+ background-color: #fcfaf8;
+ font-size: 16px;
+ border-collapse: collapse;
+ margin: 0 auto;
+}
+
+.tbody2{
+  font-size: 18px;
+}
+
+
+.th2{
+  background-color: pink;
+  padding: 3px;
+  border: black 1px solid;
+}
+
+.td2{
+  padding: 3px;
+  border: black 1px solid;
+}
+
+
+
+
+/*ここから３ページ目*/
+
+
+
+.naiyoubox{
+  float: left;
+  width: 300px;
+  height: 740px;
+  /*padding: 10px;*/
+  text-decoration: underline;
+  background-color: #fdf7fa;
+  border: #f1b8d5 3px solid;
+  text-decoration: none;
+}
+.naiyou5{
+  margin: 0 10px;
+}
+
+
+/*５ページ目*/
+.contact{
+  margin: 100px 0px 30px;
+}
+
+.contactbox{
+  width: 70%
+}
+h3{
+  font-size: 30px;
+}
+
+.question{
+  font-size: 20px;
+  background-color: #ffbf80;
+  padding: 10px;
+}
+.question::first-letter{
+  font-size: 30px;
+  color: blue;
+}
+
+.answer{
+  font-size: 20px;
+  background-color: #ffffaa;
+  padding: 10px;
+}
+.answer::first-letter{
+  font-size: 30px;
+  color: red;
+}
+
+
+.advice{
+  width: 70%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+.time{
+  font-size:15px;
+}
+
+
+.minir::after{
+  content: "/";
+}
+
+
+/*レスポンシブ*/
+
+
+@media (max-width: 768px){
+*{
+  margin: 0 auto;
+}
+
+
+.topbox{
+  width: 90%;
+}
+.logo2box{
+  width: 300px;
+}
+.station{
+  display: none;
+}
+
+
+.top-menu{
+  width: 768px;
+}
+
+
+.top-menu-item{
+  display: none;
+  float: none;
+  width: 768px;
+  border: none;
+  border-top: 1px solid #fff;
+}
+.top-menu-item:first-child{
+  border-left: 1px solid #ff8080;
+}
+
+
+.ibox{
+  width: 768px;
+  height: 70px;
+}
+
+.fa-bars{
+  display: block;
+  font-size: 60px;
+  color: white;
+  line-height: 70px;
+  float: right;
+  margin-right: 60px;
+}
+
+
+
+
+.main{
+  width: 678px;
+}
+
+
+.line{
+  width: 90%;
+}
+
+.yoko{
+  width: 90%;
+}
+
+.ap{
+  float: none;
+  margin: 0
+}
+
+.primage{
+  display: none;
+}
+
+
+.tiryoubox{
+  width: 691px;
+}
+
+.container{
+  margin: 0;
+  width: 691px;
+}
+
+.naiyou{
+  width: 223px;
+  height: 340px;
+}
+.gestcontainer{
+  width: 691px;
+}
+.gestcomment{
+  width: 217px;
+  height: 214px;
+}
+
+
+.okyakusama{
+  width: 223px;
+  height: 220px;
+  font-size: 16px;
+
+}
+.infobox{
+  width: 768px;
+}
+
+
+.map{
+  width: 354px;
+}
+
+iframe{
+  width: 354px;
+  height: 360px;
+}
+
+.sta{
+  font-size: 18px;
+}
+.toiawase{
+  width: 354px;
+}
+.telicon{
+  width: 354px;
+}
+
+.table1{
+  display: none;
+}
+
+
+
+.infoimg{
+  width: 340px;
+  height: 140px;
+  display: block;
+}
+
+
+/*second-menu*/
+
+.minir{
+  font-size: 14px;
+  width: 124px;
+}
+
+.second-menu{
+  width: 97%;
+}
+
+
+
+/*当院のご案内*/
+
+.room{
+  width: 304px;
+}
+.roomin{
+height: 200px;
+}
+
+.roomimg{
+  width: 304px;
+  height: 200px;
+}
+
+
+.director{
+  display: none;
+}
+
+.directorbox2{
+  width: 90%;
+  display: block;
+  margin-top: 100px;
+}
+
+.director2{
+  display: block;
+  margin-top: 60px;
+}
+
+.doctorre{
+  float: left;
+  margin: 0 37px;
+}
+
+.doctorname{
+  font-size:40px;
+  margin-top: 130px;
+  background-color: pink;
+ /* border: 3px pink solid;*/
+  border-radius: 90%;
+}
+
+.comment2{
+  font-size: 20px;
+}
+
+/*治療内容*/
+
+.naiyoubox{
+  width: 223px;
+  height: 890px;
+  /*overflow-y:hidden;*/
+}
+/*メモ　オーバーフローした部分を隠すにははみ出ている要素の親要素に『hidden』をかける*/
+
+.more{
+  position: relative;
+ text-align: center;
+  width: 223px;
+  z-index: 400;
+  color: red;
+}
+.close{
+ background-color: pink;
+}
+/*.flownaiyou{
+  width: 217px;
+  background-color: #fdf7fa;
+  padding: 10px;
+}*/
+/*
+.flowbox{
+  width: 197px;
+}*/
+/*
+.naiyou5{
+  height: 700px;
+}
+
+.naiyou1{
+  height: 340px;
+}
+
+.flowbox{
+  width: 223px;
+  background-color: #fdf7fa;
+  border: #f1b8d5 3px solid;
+  }
+}
+
+.text8{
+  padding: 10px;
+}*/
+
+
+}
+
+
+/*スマホレスポンシブ*/
+
+
+@media (max-width: 375px){
+*{
+  margin: 0 auto;
+}
+#header{
+margin: 0px;
+height: 90px;
+}
+
+.topbox{
+  width: 95%;
+}
+
+.logo{
+  font-size: 36px;
+  width: 190px;
+  height: 90px;
+  line-height: 90px;
+}
+.headimg{
+  display: block;
+  width: 160px;
+ padding-top: 15px;
+}
+
+.logo2box{
+  display: none;
+}
+
+nav{
+  height: 50px;
+}
+.menu{
+  height: 50px;
+}
+
+.ibox{
+  width: 100%;
+  height: 50px;
+}
+
+.fa-bars{
+  font-size: 40px;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+.top-menu{
+  width: 100%;
+  height: 50px;
+}
+.top-menu-item{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.top-menu-item:first-child{
+  border-left: 1px solid #ff8080;
+}
+
+.bigimage{
+  height: 250px;
+}
+
+
+.main{
+  width: 375px;
+}
+
+
+.prtext{
+  width: 90%;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.line{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.tiryou{
+  margin-top: 30px;
+}
+
+.tiryoubox{
+  width: 337px;
+}
+.container{
+  width: 100%;
+}
+
+.naiyou{
+  float: none;
+  width: 90%;
+  height: 160px;
+  margin: 15px auto;
+}
+.naiyoubox{
+  width: 100%;
+  text-decoration: none;
+}
+
+.naiyou2{
+ margin: auto;
+}
+
+
+.center{
+  display: none;
+}
+
+
+.gestcontainer{
+  width: 100%;
+ /* height: 600px;*/
+}
+
+
+.okyakukoe{
+  width: 90%;
+}
+
+.okyakusama{
+  float: none;
+  width: 240px;
+  height: 220px;
+}
+
+.okyakusama2{
+  margin: 0 auto;
+}
+
+
+.okyakusama{
+  margin-bottom: 15px;
+}
+.gestcomment{
+  width: 234px;
+  height: 214px;
+}
+
+
+#info{
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+.infobox{
+  width: 90%;
+}
+
+.map{
+  float: none;
+}
+
+.bord1{
+  margin: 0;
+  width: 337px;
+}
+iframe{
+  width: 337px;
+  height: 320px;
+}
+
+.station3{
+  margin-bottom: 10px;
+}
+
+.bord2{
+  margin: 0;
+  width: 337px;
+}
+
+.toiawase,
+.telicon{
+width: 337px;
+}
+
+.infoimg{
+  width: 320px;
+  height: 120px;
+}
+
+
+.directorbox2{
+  margin-top: 85px;
+}
+
+.doctorre{
+  float:  left;
+  margin: 0;
+}
+
+.doctorname{
+  font-size: 20px;
+  margin: 0;
+  margin-top: 100px;
+  background-color: pink;
+ /* border: 3px pink solid;*/
+  border-radius: 90%;
+}
+
+.imagemi{
+  margin: 0;
+  width: 180px;
+  margin-left: 15px;
+
+}
+
+
+.doctorimg{
+  width: 180px;
+  height: 170px;
+}
+.comment2{
+  font-size: 16px;
+}
+
+.hospitalbox{
+  width: 90%;
+}
+
+.room{
+  float: none;
+  margin: 0 auto;
+}
+
+.bread1{
+width:
+}
+.infomation{
+  width: 90%;
+}
+
+.table2{
+  width: 337px;
+}
+
+.tbody2{
+  font-size: 16px;
+}
+
+
+.minir{
+  height: 25px;
+}
+
+.bread1{
+  height: 85px;
+}
+
+.second-menu{
+  width: 67%;
+}
+
+/*treatment*/
+
+.tiryou{
+  margin-top: 80px;
+}
+.naiyou5{
+margin: 0 auto;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.naiyoubox{
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.hide-text{
+  display: none;
+  margin: 0 10px;
+}
+
+.readmore{
+  text-align: center;
+  color: red;
+  display: block;
+
+}
+
+.readmore i{
+  font-size:  40px;
+
+}
+
+
+
+
+
+
+
+/*Question*/
+h3{
+  font-size: 24px;
+}
+
+.contact{
+  margin-top: 80px;
+
+}
+
+.contactbox{
+  width: 80%;
+}
+.question,
+.answer{
+  font-size: 14px;
+}
+
+.question::first-letter{
+  font-size: 20px;
+  color: blue;
+}
+.answer::first-letter{
+  font-size: 20px;
+  color: red;
+}
+
+
+
+
+
+.advice{
+  font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
